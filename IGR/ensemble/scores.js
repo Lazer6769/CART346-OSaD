@@ -151,9 +151,9 @@ const SCORES = [
       { at: '0:00', groups: 'A',  play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.01, fade: 5 },
       // The groups start drifting against each other too
       { at: '0:30', spread: 1.04, glide: 30 },
-      { at: '0:30', groups: 'B',  play: 'demo/C09-S02-BEEP', ratio: 1.01, fade: 5, level: 0.5},
+      { at: '0:15', groups: 'B',  play: 'demo/C09-S02-BEEP', ratio: 1.01, fade: 5, level: 0.5},
       { at: '0:45', groups: 'C',  play: 'demo/C09-S04-WORP', ratio: 1.01, fade: 5, level: 0.5},
-      {at: '0:35', groups: 'D',  play: 'demo/C09-S02-BEEP', ratio: 1.004, fade: 60, level: 0.5},
+      {at: '0:30', groups: 'D',  play: 'demo/C09-S02-BEEP', ratio: 1.004, fade: 60, level: 0.5},
 
       // At 2:00 sound 2 fades in on D over a minute…
       { at: '1:30', groups: 'C',    play: 'demo/C09-S03-BOBOBOBOBO', ratio: 1.050, fade: 30, level: 0.6},
@@ -170,7 +170,9 @@ const SCORES = [
       { at: '2:15', groups: 'all',  stop: 'all', fade: 20 },
       // Sound 3 enters on A and C only, frozen
       { at: '2:30', groups: 'A',   play: 'demo/C09-S01-BACKANDFORTH', fade: 10, level: 0.8 },
+      {at: '2:30', groups: 'B',   play: 'demo/C09-S04-WORP',ratio: 1.020, fade: 50, level: 0.6 },
       { at: '2:30', groups: 'C',   play: 'demo/C09-S03-BOBOBOBOBO', fade: 10, level: 0.8 },
+      { at: '2:30', groups: 'D',   play: 'demo/C09-S05-WOOOWOOO', ratio: 1.050, fade: 40, level: 0.4},
       { at: '3:00', groups: 'all',  stop: 'all', fade: 20 },
     ],
   }, 
