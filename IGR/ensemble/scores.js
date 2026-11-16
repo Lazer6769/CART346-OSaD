@@ -169,9 +169,9 @@ const SCORES = [
       { at: '1:30', spread: 1.000, glide: 30 },
       { at: '2:15', groups: 'all',  stop: 'all', fade: 20 },
       // Sound 3 enters on A and C only, frozen
-      { at: '2:30', groups: 'A',   play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.03, fade: 60, level: 0.5 },
-      {at: '2:30', groups: 'B',   play: 'demo/C09-S04-WORP',ratio: 1.020, fade: 35, level: 0.6 },
-      { at: '2:30', groups: 'C',   play: 'demo/C09-S03-BOBOBOBOBO', fade: 10, level: 0.8 },
+      { at: '2:30', groups: 'A',   play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.01, fade: 10, level: 0.6 },
+      {at: '2:30', groups: 'B',   play: 'demo/C09-S04-WORP',ratio: 1.020, fade: 35, level: 0.5 },
+      { at: '2:30', groups: 'C',   play: 'demo/C09-S03-BOBOBOBOBO', fade: 10, level: 0.7 },
       { at: '2:30', groups: 'D',   play: 'demo/C09-S05-WOOOWOOO', ratio: 1.050, fade: 40, level: 0.4},
       { at: '3:00', groups: 'all',  stop: 'all', fade: 20 },
     ],
