@@ -148,7 +148,7 @@ const SCORES = [
     credit: "All recordings by Jordan Lobasso.",
     groups: 4,
     events: [
-      { at: '0:00', groups: 'A',  play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.01, fade: 5 },
+      { at: '0:00', groups: 'A',  play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.01, fade: 5, level: 0.7},
       // The groups start drifting against each other too
       { at: '0:30', spread: 1.04, glide: 30 },
       { at: '0:15', groups: 'B',  play: 'demo/C09-S02-BEEP', ratio: 1.01, fade: 5, level: 0.5},
