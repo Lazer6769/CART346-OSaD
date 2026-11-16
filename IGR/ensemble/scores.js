@@ -152,23 +152,25 @@ const SCORES = [
       // The groups start drifting against each other too
       { at: '0:30', spread: 1.04, glide: 30 },
       { at: '0:30', groups: 'B',  play: 'demo/C09-S02-BEEP', ratio: 1.01, fade: 5, level: 0.5},
+      { at: '0:45', groups: 'C',  play: 'demo/C09-S04-WORP', ratio: 1.01, fade: 5, level: 0.5},
+      {at: '0:50', groups: 'D',  play: 'demo/C09-S02-BEEP', ratio: 1.004, fade: 60, level: 0.5},
 
       // At 2:00 sound 2 fades in on D over a minute…
-      { at: '1:30', groups: 'C',    play: 'demo/C09-S03-BOBOBOBOBO', ratio: 1.010, fade: 60, level: 0.7},
+      { at: '1:30', groups: 'C',    play: 'demo/C09-S03-BOBOBOBOBO', ratio: 1.050, fade: 10, level: 0.8},
       { at: '1:40', groups: 'D',    play: 'demo/C09-S04-WORP', ratio: 1.020, fade: 60, level: 0.5},
       {at : '1:50', groups: 'A',    play: 'demo/C09-S05-WOOOWOOO', ratio: 1.020, fade: 60, level: 0.5},
       // …while A, B, C crossfade from sound 1 to sound 2 over the same minute
       { at: '1:15', groups: 'A',  stop: 'demo/C09-S01-BACKANDFORTH', fade: 60 },
       { at: '1:30', groups: 'B',  stop: 'demo/C09-S02-BEEP', fade: 60 },
-      { at: '2:30', groups: 'D',  play: 'demo/C09-S05-WOOOWOOO', ratio: 1.004, fade: 60, level: 0.5},
+      { at: '0:50', groups: 'D',  play: 'demo/C09-S05-WOOOWOOO', ratio: 1.004, fade: 60, level: 0.5},
       // Everyone accelerates inside their group, then everything freezes
       { at: '0:30', groups: 'all',  ratio: 1.03, glide: 20 },
       { at: '1:00', groups: 'all',  ratio: 1.000, glide: 30 },
       { at: '1:30', spread: 1.000, glide: 30 },
+      { at: '2:15', groups: 'all',  stop: 'all', fade: 20 },
       // Sound 3 enters on A and C only, frozen
       { at: '2:30', groups: 'A',   play: 'demo/C09-S01-BACKANDFORTH', fade: 10, level: 0.8 },
-      { at: '2:30', groups: 'C',   play: 'demo/C09-S03-BOBOBOBOBO', fade: 30, level: 0.5 },
-      {at: '2:00', groups: 'C',   stop: 'demo/C09-S03-BOBOBOBOBO', fade: 30, level: 0.5 },
+      { at: '2:30', groups: 'C',   play: 'demo/C09-S03-BOBOBOBOBO', fade: 10, level: 0.8 },
       { at: '3:00', groups: 'all',  stop: 'all', fade: 20 },
     ],
   }, 
