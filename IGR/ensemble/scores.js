@@ -148,7 +148,7 @@ const SCORES = [
     credit: "All recordings by Jordan Lobasso.",
     groups: 4,
     events: [
-      { at: '0:00', groups: 'A', play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.01},
+      { at: '0:00', groups: 'A', play: 'demo/C09-S01-BACKANDFORTH', ratio: 1.01, fade: 5},
       { at: '0:00', spread: 1.005 },
       { at: '0:16', groups: 'B', play: 'demo/C09-S02-BEEP', ratio: 1.0},
       { at: '0:00', groups: 'C', play: 'demo/multitrack-test/c', ratio: 1.0},
