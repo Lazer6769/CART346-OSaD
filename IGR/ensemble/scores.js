@@ -119,4 +119,19 @@ const SCORES = [
     ],
   }, 
   
+{
+    title: 'Game that doesn’t exist',
+    credit: "All sounds found on freesound.org, and pixabay.com. ",
+    groups: 5,
+    events: [
+      { at: '0:00', groups: 'A', play: 'demo/C10-S01-BEGINNING', ratio: 1.01},
+      { at: '0:00', spread: 1.005 },
+      { at: '0:00', groups: 'B', play: 'demo/C10-S02-LIGHTING_A_FLAME', ratio: 1.0},
+      { at: '0:00', groups: 'C', play: 'demo/C10-S03-GOBLINS', ratio: 1.0},
+      { at: '0:00', groups: 'D', play: 'demo/C10-S04-BOSS', ratio: 1.0},
+      { at: '0:00', groups: 'E', play: 'demo/C10-S05-EXIT', ratio: 1.0},
+      { at: '5:00', groups: 'all', stop: 'all', fade: 1 },
+    ],
+  }, 
+
 ];
