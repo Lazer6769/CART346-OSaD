@@ -132,7 +132,7 @@ const SCORES = [
       { at: '1:25', groups: 'C', play: 'demo/C10-S03-GOBLINS', ratio: 1.0},
       { at: '2:05', groups: 'C',  stop: 'demo/C10-S03-GOBLINS', ratio: 1.01},
       { at: '2:05', groups: 'D', play: 'demo/C10-S04-BOSS', ratio: 1.0},
-      { at: '3:22', groups: 'B',  stop: 'demo/C10-S04-BOSS', ratio: 1.01},
+      { at: '3:22', groups: 'D',  stop: 'demo/C10-S04-BOSS', ratio: 1.01},
       { at: '3:22', groups: 'E', play: 'demo/C10-S05-EXIT', ratio: 1.0},
       { at: '5:95', groups: 'all', stop: 'all', fade: 1 },
     ],
